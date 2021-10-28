@@ -93,6 +93,8 @@ section{
     background-color: #9569da !important;
     color:#fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    border: none;
 }
 
 .video-container {
