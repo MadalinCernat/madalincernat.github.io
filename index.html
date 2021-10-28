@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Madalin Cernat - Full Stack Dev.</title>
+  <link rel="icon" href="logo.png" type="image/icon type">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/34183b3d48.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+
+  <div class="container">
+
+    <main role="main" class="pb-3 text-light">
+
+      <div id="socials" class="social-bar">
+        <a href="https://github.com/MadalinCernat" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&to=madalin.cernat02@gmail.com&tf=cm" target="_blank"><i
+            class="fas fa-envelope-open-text fa-2x"></i></a>
+        <a href="" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <p>Madalin Cernat 2021</p>
+        <button onclick="scrollToTop()"><i class="fas fa-arrow-up fa-2x"></i></a>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+
+          <section id="about-me" class="">
+            <h4 class="section-title">
+              <div class="mr-2"><span class="list-nr">01.</span></div>About Me
+            </h4>
+            <hr class="mt-auto" />
+            <p>Hello! I'm Madalin, a <span class="text-violet">full-stack developer</span> based in Romania. I develop
+              web and
+              desktop applications
+              that provide intuitive user interfaces and great, modern backends.
+            </p>
+            <p>
+              A few technologies I've been recently working with:
+            <ul id="technologies-list">
+              <li>HTML/CSS</li>
+              <li>Bootstrap</li>
+              <li>ASP.NET</li>
+              <li>EF Core</li>
+              <li>MongoDB</li>
+              <li>MSSQL</li>
+            </ul>
+            </p>
+          </section>
+
+          <section id="projects-section" class="">
+            <h4 class="section-title">
+              <div class="mr-2"><span class="list-nr">02.</span></div>Projects
+            </h4>
+            <hr class="mt-auto" />
+            <!--SGB Project-->
+            <div>
+              <h5 class="text-center mt-4"><strong>StaticGlobalBoyz e-commerce app</strong></h5>
+              <div class="row justify-content-center">
+                <a class="btn btn-primary mt-2" href="https://github.com/MadalinCernat/StaticGlobalBoyz"
+                  target="_blank"><i class="fab fa-github fa-lg pr-2"></i>Github
+                </a>
+              </div>
+              <div>
+                <p class="text-center mt-3">
+                  <span class="text-violet">Purpose</span>: selling beats and clothes for a small brand.
+                </p>
+                <p class="text-center">
+                  <span class="text-violet">Functionalities</span>: shopping cart, online payment, order management,
+                  upload and download files, google
+                  and facebook authentication, email system, authorization and administration pages.
+                </p>
+              </div>
+              <div class="video-container mt-3">
+                <iframe src="https://www.youtube.com/embed/dC6uAZSuGuU" title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+        <div class="col">
+        </div>
+
+      </div>
+
+  </div>
+
+
+  </div>
+  </div>
+  </main>
+  </div>
+
+
+  <!--Jquery scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+
+  <!--Bootstrap script-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("navbar.html");
+    });
+  </script>
+  <script>
+    $("#about-me").delay(200).animate({ opacity: 1 }, 700);
+    $("#projects-section").delay(500).animate({ opacity: 1 }, 700);
+    $("#socials").delay(600).animate({ opacity: 1 }, 1000);
+  </script>
+  <script>
+    function scrollToTop() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>
