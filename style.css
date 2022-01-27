@@ -5,7 +5,9 @@ body{
     color:#fff;
     font-family: 'Quicksand', sans-serif;
 }
-html{scroll-behavior:smooth}
+html{
+    scroll-behavior:smooth
+}
 .navbar-brand{
     font-size: 26px;
     font-family: 'Quicksand', sans-serif;
