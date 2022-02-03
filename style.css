@@ -64,13 +64,15 @@ hr {
     font-weight: bold;
 }
 
-#technologies-list{
+.skills{
     list-style-type: none;
-    columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    color:#BCBCBC;
-    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
 }
 
 section{
